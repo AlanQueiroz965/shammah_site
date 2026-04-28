@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--fontes do google-->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Michroma&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- SEO & Meta Tags -->
+    <title>Shammah | Portaria Autônoma e Controle de Acesso</title>
+    <meta
+      name="description"
+      content="Segurança inteligente para seu condomínio. Portaria autônoma, controle de acesso e monitoramento 24h com a tecnologia Shammah."
+    />
+    <meta
+      name="keywords"
+      content="portaria autônoma, controle de acesso, segurança eletrônica, monitoramento 48, Shammah segurança"
+    />
+  </head>
+  <body>
+    <header>
+      <!-- Top Bar Semântica -->
+      <aside class="top-bar">
+        <address class="info-group">
+          <a href="https://wa.me" target="_blank" rel="noopener">
+            <span class="icon">📞</span> (48) 98834-0732
+          </a>
+          <span><span class="icon">🕒</span> Atendimento 24h</span>
+        </address>
+        <a href="#" class="client-area">Área do Cliente</a>
+      </aside>
+
+      <nav class="main-nav" aria-label="Navegação Principal">
+        <strong class="logo">SHAMMAH</strong>
+
+        <ul class="menu" id="nav-menu">
+          <li><a href="#home">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Soluções</a></li>
+          <li><a href="#depoimentos">Clientes</a></li>
+          <li><a href="#contato">Contato</a></li>
+          <li><a href="#">Trabalhe Conosco</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <button class="btn-cta">Solicitar Orçamento</button>
+          <button
+            class="menu-toggle"
+            id="menu-btn"
+            onclick="toggleMenu()"
+            aria-label="Abrir menu"
+          >
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section id="home" class="hero">
+        <div class="container">
+          <h1>Segurança Inteligente e Controle Total</h1>
+          <p>
+            Tecnologia avançada em Portaria Autônoma para condomínios, empresas e residencias de alto padrão que buscam
+            eficiência e economia.
+          </p>
+        </div>
+      </section>
+
+      <!-- Sobre -->
+      <section id="sobre" class="section-padding">
+        <div class="container">
+          <h2>Sobre a Shammah</h2>
+          <article class="content-text">
+            <p>
+              A <strong>Shammah</strong> é especialista em segurança
+              tecnológica. Oferecemos soluções inovadoras em portaria autônoma e
+              controle de acesso, focando na redução de custos operacionais e no
+              aumento real da proteção para condomínios residenciais/comerciais, empresas e residências de alto padrão. Nossa missão é transformar a
+              segurança tradicional, proporcionando tranquilidade e controle total.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Serviços -->
+      <section id="servicos" class="section-padding bg-light">
+        <div class="container">
+          <h2>Nossas Soluções</h2>
+          <div class="grid-services">
+            <article class="card">
+              <h3>Portaria Autônoma</h3>
+              <p>
+                Gerencie acessos via smartphone com áudio e vídeo em tempo real,
+                garantindo total autonomia aos moradores.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Controle de Acesso</h3>
+              <p>
+                Tecnologia de biometria, reconhecimento facial e QR Code para
+                uma gestão rigorosa de entrada e saída.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Monitoramento 24h</h3>
+              <p>
+                Central de inteligência conectada integralmente ao seu
+                condomínio para suporte e respostas rápidas.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Depoimentos -->
+      <section id="depoimentos" class="section-padding">
+        <div class="container">
+          <h2>O que dizem os Síndicos</h2>
+          <figure class="testimonial">
+            <blockquote cite="#">
+              <p>
+                "A redução de custos foi imediata e a sensação de segurança dos
+                moradores aumentou consideravelmente após a implementação da
+                Shammah."
+              </p>
+            </blockquote>
+            <figcaption>
+              - Ricardo Mendes, <cite>Síndico Residencial Aurora</cite>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- Contato com Formulário -->
+      <section id="contato" class="section-padding bg-light">
+        <div class="container">
+          <h2>Fale com um Especialista</h2>
+          <form class="contact-form">
+            <fieldset>
+              <legend>Dados para Contato</legend>
+              <input
+                type="text"
+                name="nome"
+                placeholder="Nome Completo / Condomínio"
+                required
+              />
+              <input type="email" name="email" placeholder="E-mail" required />
+              <input
+                type="tel"
+                name="telefone"
+                placeholder="Telefone de Contato"
+                required
+              />
+              <textarea
+                name="mensagem"
+                placeholder="Descreva sua necessidade..."
+                rows="5"
+              ></textarea>
+              <button type="submit" class="btn-cta full-width">
+                Enviar Solicitação
+              </button>
+            </fieldset>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer-site">
+      <div class="container">
+        <strong class="logo-footer">SHAMMAH</strong>
+        <p>Portaria Autônoma e Controle de Acesso</p>
+        <p class="copyright">
+          &copy; 2024 Shammah. Todos os direitos reservados.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Botão WhatsApp Flutuante Circular -->
+    <a
+      href="https://wa.me"
+      class="whatsapp-float"
+      target="_blank"
+      rel="noopener"
+      aria-label="Fale conosco pelo WhatsApp"
+    >
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+        alt="Ícone do WhatsApp"
+      />
+    </a>
+
+    <script>
+      function toggleMenu() {
+        document.getElementById("nav-menu").classList.toggle("active");
+        document.getElementById("menu-btn").classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>
